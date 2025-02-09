@@ -16,12 +16,24 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/myHeadingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Celestial Jewelry"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/logo"
             android:layout_width="299dp"
             android:layout_height="272dp"
             android:layout_below="@+id/linearLayout"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="1dp"
             android:adjustViewBounds="true"
             android:foregroundGravity="center_horizontal"
             android:visibility="visible"
@@ -31,7 +43,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/bgboxtext"
             android:hint="username"
             android:textColor="@color/white"
@@ -45,7 +57,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/bgboxtext"
             android:hint="password"
             android:textColor="@color/white"
@@ -55,18 +67,18 @@
             android:inputType="textPassword"
             android:id="@+id/password_input"
             />
-        
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:backgroundTint="@color/white"
-            android:textColor="#3B84F1"
-            android:padding="18dp"
-            android:layout_marginTop="32sp"
-            android:textSize="20sp"
             android:id="@+id/login_btn"
-            />
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:padding="18dp"
+            android:paddingRight="30dp"
+            android:text="Login"
+            android:textColor="#3B84F1"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -76,6 +88,7 @@
             android:textColor="@color/white"
             android:layout_marginTop="32dp"
             android:id="@+id/forgot_password"/>
+
 
     </LinearLayout>
 
